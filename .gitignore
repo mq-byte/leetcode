@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+npm-debug.log
+/dist
+/www
+/_dist
+/_package
+.idea
+/build
+.idea/*
+.idea/inspectionProfiles/*
+*/.cache/*
+*/.umi/*
