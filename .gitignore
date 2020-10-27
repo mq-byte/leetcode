@@ -9,5 +9,4 @@ npm-debug.log
 /build
 .idea/*
 .idea/inspectionProfiles/*
-*/.cache/*
-*/.umi/*
+
