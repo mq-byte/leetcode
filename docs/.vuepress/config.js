@@ -1,6 +1,7 @@
 module.exports = {
     title: '算法',
     description: '算法',
+    base: '/leetcode',
     markdown: {
         lineNumbers: true
     },
