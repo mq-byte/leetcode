@@ -1,14 +1,14 @@
 ---
 title: 二叉搜索树
-prev: /
-next: /
+prev: /tree
+next: /tree/maxDepth
 tags:
   - 二叉搜索树  
 ---
 
 [[toc]]
 
-## 题目描述
+### 题目描述
 给定一个有序整数数组，元素各不相同且按升序排列，编写一个算法，创建一棵高度最小的二叉搜索树。
 
 ::: tip eg:
@@ -24,13 +24,13 @@ tags:
 
 :::
 
-## 解题思路
+### 解题思路
 
 核心就是一个思想，将数组中 中间值作为二叉树父节点，中间值左边区域生成满足题目的左子树，右边同理
 
-## 代码描述
+### 代码描述
 
-### javascript
+#### javascript
 ```js
 /**
  * Definition for a binary tree node.
@@ -61,7 +61,7 @@ var sortedArrayToBST = function(nums) {
     return atb(0,nums.length - 1);
 };
 ```
-### java
+#### java
 ```java
 /**
  * Definition for a binary tree node.

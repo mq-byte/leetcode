@@ -1,6 +1,6 @@
 ---
 title: 计算最大深度
-prev: /
+prev: /tree/day01
 next: /
 tags:
   - 计算最大深度  
@@ -8,7 +8,7 @@ tags:
 
 [[toc]]
 
-## 题目描述
+### 题目描述
 输入一棵二叉树的根节点，求该树的深度。从根节点到叶节点依次经过的节点（含根、叶节点）形成树的一条路径，最长路径的长度为树的深度。
 
 ::: tip eg:
@@ -23,13 +23,13 @@ tags:
        15   7
 :::
 
-## 解题思路
+### 解题思路
 
 这是我面试美团三面的一道算法题，题目不难，只要是科班出身基本都是能够解出来的。
 
-## 代码描述
+### 代码描述
 
-### javascript
+#### javascript
 ```js
 /**
  * Definition for a binary tree node.
@@ -51,7 +51,7 @@ var maxDepth = function(root) {
 };
 ```
 
-### java
+#### java
 ```java
 /**
  * Definition for a binary tree node.
