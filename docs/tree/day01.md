@@ -26,6 +26,8 @@ tags:
 
 ## 解题思路
 
+核心就是一个思想，将数组中 中间值作为二叉树父节点，中间值左边区域生成满足题目的左子树，右边同理
+
 ## 代码描述
 
 ### javascript
@@ -42,7 +44,21 @@ tags:
  * @return {TreeNode}
  */
 var sortedArrayToBST = function(nums) {
+    if(nums.length === 0){
+        return null;
+    }
 
+    var atb = function(i,j){
+        if(i > j){
+            return null;
+        }
+        var m = Math.floor((i + j)/2);
+        var t = new TreeNode(nums[m]);
+        t.left = atb(i,m - 1);
+        t.right = atb(m + 1, j);
+        return t;
+    }
+    return atb(0,nums.length - 1);
 };
 ```
 ### java

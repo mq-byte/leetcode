@@ -4,7 +4,7 @@ heroImage: /bg.jpg
 heroText: 一袋米呦
 tagline: 一袋米要扛几楼
 actionText: 感受痛苦吧 →
-actionLink: /zh/guide/
+actionLink: /guide/
 features:
 - title: 持之以恒
   details: 坚持住，每天看看算法
