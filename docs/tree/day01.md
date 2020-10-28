@@ -1,6 +1,6 @@
 ---
 title: 二叉搜索树
-prev: /tree
+prev: /tree/
 next: /tree/maxDepth
 tags:
   - 二叉搜索树  
