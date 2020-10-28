@@ -1,7 +1,7 @@
 ---
 title: 计算最大深度
 prev: /tree/day01
-next: /
+next: /tree/mirrorTree
 tags:
   - 计算最大深度  
 ---
