@@ -2,6 +2,11 @@
 
 # 确保脚本抛出遇到的错误
 set -e
+git config user.name JoeyQiuYang
+git config user.email 1736315428@qq.com
+git add -A
+git commit -m 'hello word'
+git push git@github.com:JoeyQiuYang/leetcode.git master
 
 # 生成静态文件
 npm run docs:build
@@ -13,6 +18,9 @@ cd docs/.vuepress/dist
 # echo 'www.example.com' > CNAME
 
 git init
+git config user.name JoeyQiuYang
+git config user.email 1736315428@qq.com
+
 git add -A
 git commit -m 'deploy'
 

@@ -20,7 +20,8 @@ module.exports = {
                 // collapsable: false,
                 sidebarDepth: 1,
                 children: [
-                    "/tree/day01"
+                    "/tree/day01",
+                    "/tree/maxDepth"
                 ]
             }
         ]
