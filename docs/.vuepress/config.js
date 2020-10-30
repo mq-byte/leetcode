@@ -23,7 +23,8 @@ module.exports = {
                     "/tree/day01",
                     "/tree/maxDepth",
                     "/tree/mirrorTree",
-                    "/tree/seachTreeSum"
+                    "/tree/seachTreeSum",
+                    "/tree/isBTree",
                 ]
             }
         ]

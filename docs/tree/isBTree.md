@@ -1,5 +1,5 @@
 ---
-title: 二叉搜索树
+title: 判断平衡二叉树
 prev: /tree/
 next: /tree/maxDepth
 tags:
